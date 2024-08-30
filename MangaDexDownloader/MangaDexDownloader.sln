@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35201.85
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MangaDexDownloader.ConsoleApp", "MangaDexDownloader.ConsoleApp\MangaDexDownloader.ConsoleApp.csproj", "{4A49D067-950E-4A76-8A5A-9ACBBC56255A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MangaDexDownloader.ConsoleApp", "MangaDexDownloader.ConsoleApp\MangaDexDownloader.ConsoleApp.csproj", "{4A49D067-950E-4A76-8A5A-9ACBBC56255A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MangaDexDownloader.Services", "MangaDexDownloader.Services\MangaDexDownloader.Services.csproj", "{7FE478CC-7AE1-4FAD-904C-ED3595982E63}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MangaDexDownloader.Shared", "MangaDexDownloader.Shared\MangaDexDownloader.Shared.csproj", "{A6431D99-5EAF-42FC-AF81-922B6439B261}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MangaDexDownloader.WorkerService", "MangaDexDownloader.WorkerService\MangaDexDownloader.WorkerService.csproj", "{D166C5F4-6B32-41A2-914F-68A89ECBCF8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{4A49D067-950E-4A76-8A5A-9ACBBC56255A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A49D067-950E-4A76-8A5A-9ACBBC56255A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A49D067-950E-4A76-8A5A-9ACBBC56255A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FE478CC-7AE1-4FAD-904C-ED3595982E63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FE478CC-7AE1-4FAD-904C-ED3595982E63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FE478CC-7AE1-4FAD-904C-ED3595982E63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FE478CC-7AE1-4FAD-904C-ED3595982E63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6431D99-5EAF-42FC-AF81-922B6439B261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6431D99-5EAF-42FC-AF81-922B6439B261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6431D99-5EAF-42FC-AF81-922B6439B261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6431D99-5EAF-42FC-AF81-922B6439B261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D166C5F4-6B32-41A2-914F-68A89ECBCF8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D166C5F4-6B32-41A2-914F-68A89ECBCF8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D166C5F4-6B32-41A2-914F-68A89ECBCF8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D166C5F4-6B32-41A2-914F-68A89ECBCF8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
